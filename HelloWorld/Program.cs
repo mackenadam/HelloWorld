@@ -26,6 +26,8 @@ namespace HelloWorld
             string message2 = "Or even all lowercase.";
             string lowercaseMessage = message2.ToLower();
 
+            // Variables can be values or references
+
             Console.WriteLine("Hello World!");
             Console.WriteLine("The sum of integers like " + num1 + " and " + num2 + " is " + sum);
             Console.WriteLine("The sum of doubles like " + d1 + " and " + d2 + " is " + dSum);
