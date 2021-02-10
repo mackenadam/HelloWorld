@@ -45,7 +45,13 @@ namespace HelloWorld
 
             Console.Write("Enter a character and press Enter:");
             int asciiValue = Console.Read();
-            Console.WriteLine("The ASCII value for that is: '{0}'", asciiValue);
+            Console.Write("The ASCII value for that is: '{0}'", asciiValue);
+            Console.ReadKey();
+            // Examples of console properties
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.WriteLine("Now we can change the colour using Console properties.");
 
             Console.ReadKey();
         }
