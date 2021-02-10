@@ -38,7 +38,16 @@ namespace HelloWorld
             Console.WriteLine("Hello " + myName);
             Console.WriteLine(message.ToUpper());
             Console.WriteLine(lowercaseMessage);
-            Console.Read();
+
+            Console.Write("Now, enter a string and press Enter: ");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("You have entered: '{0}'", userInput);
+
+            Console.Write("Enter a character and press Enter:");
+            int asciiValue = Console.Read();
+            Console.WriteLine("The ASCII value for that is: '{0}'", asciiValue);
+
+            Console.ReadKey();
         }
     }
 }
