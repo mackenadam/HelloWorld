@@ -6,8 +6,10 @@ namespace HelloWorld
     class Program
     {
         // MethodNames also in pascal case
+        // methodArguments in camel case
         static void Main(string[] args)
         {
+            // localVariables in camel case
             // Numbers
             int num1 = 13;
             int num2 = 31;
