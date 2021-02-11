@@ -10,8 +10,9 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             // localVariables in camel case
-            // Numbers
             // Do not use abbreviations in variable names
+            // Do not use numbers at the start of variable names
+            // Numbers
             int number1 = 13;
             int number2 = 31;
             int sum = number1 + number2;
@@ -34,12 +35,12 @@ namespace HelloWorld
             // Variables can be values or references
 
             Console.WriteLine("Hello World!");
-            Console.WriteLine("The sum of integers like " + num1 + " and " + num2 + " is " + sum);
-            Console.WriteLine("The sum of doubles like " + d1 + " and " + d2 + " is " + dSum);
-            Console.WriteLine("You can even add integers like " + num1 + " and doubles like " + d1 + " to get " + (num1 + d1));
-            Console.WriteLine("You can perform more advanced operations on like data types i.e " + d1 + " divided by " + d2 + " equals " + (d1 / d2));
-            Console.WriteLine("However different data types like " + num1 + " and " + d1 + " will rely on 'casting'");
-            Console.WriteLine("Don't forget that floating number types like " + f1 + " need to have an f suffix when declared i.e  float f1 = " + f1 + "f");
+            Console.WriteLine("The sum of integers like " + number1 + " and " + number2 + " is " + sum);
+            Console.WriteLine("The sum of doubles like " + double1 + " and " + double2 + " is " + doubleSum);
+            Console.WriteLine("You can even add integers like " + number1 + " and doubles like " + double1 + " to get " + (number1 + double1));
+            Console.WriteLine("You can perform more advanced operations on like data types i.e " + double1 + " divided by " + double2 + " equals " + (double1 / double2));
+            Console.WriteLine("However different data types like " + number1 + " and " + double1 + " will rely on 'casting'");
+            Console.WriteLine("Don't forget that floating number types like " + float1 + " need to have an f suffix when declared i.e  float f1 = " + float1 + "f");
             Console.WriteLine("Hello " + myName);
             Console.WriteLine(message.ToUpper());
             Console.WriteLine(lowercaseMessage);
