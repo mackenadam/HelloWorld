@@ -2,8 +2,10 @@
 
 namespace HelloWorld
 {
+    // ClassNames in pascal case
     class Program
     {
+        // MethodNames also in pascal case
         static void Main(string[] args)
         {
             // Numbers
@@ -52,6 +54,8 @@ namespace HelloWorld
             Console.BackgroundColor = ConsoleColor.White;
             Console.Clear();
             Console.WriteLine("Now we can change the colour using Console properties.");
+
+  
 
             Console.ReadKey();
         }
