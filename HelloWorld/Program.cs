@@ -11,18 +11,19 @@ namespace HelloWorld
         {
             // localVariables in camel case
             // Numbers
-            int num1 = 13;
-            int num2 = 31;
-            int sum = num1 + num2;
+            // Do not use abbreviations in variable names
+            int number1 = 13;
+            int number2 = 31;
+            int sum = number1 + number2;
 
-            double d1 = 3.5;
-            double d2 = 1.337;
-            double dSum = d1 + d2;
+            double double1 = 3.5;
+            double double2 = 1.337;
+            double doubleSum = double1 + double2;
 
-            // Use Casting
-            // int intOverDouble = num1 / d1;
+            // Use Casting for more complex arithmetic on different number types
+            // int integerOverDouble = number1 / double1;
 
-            float f1 = 6.9f;
+            float float1 = 6.9f;
 
             // Strings
             string myName = "Adam";
