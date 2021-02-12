@@ -21,7 +21,7 @@ namespace HelloWorld
             double double2 = 1.337;
             double doubleSum = double1 + double2;
 
-            // Use Casting for more complex arithmetic on different number types
+            // Use Casting for more complex arithmetic on different number types(see below)
             // int integerOverDouble = number1 / double1;
 
             float float1 = 6.9f;
@@ -80,8 +80,11 @@ namespace HelloWorld
             // i.e double to a string
             string myString = myDouble.ToString();
             string newString = myFloat.ToString();
-
             Console.WriteLine(newString);
+
+            bool sunIsShining = true;
+            string myBooleanString = sunIsShining.ToString();
+            Console.WriteLine(myBooleanString);
 
             Console.Read();
         }
