@@ -65,8 +65,9 @@ namespace HelloWorld
             // Explicit conversion
             // Cast double into integer
             myInteger = (int)myDouble;
+            Console.WriteLine(myInteger);
 
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
