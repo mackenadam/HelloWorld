@@ -63,9 +63,22 @@ namespace HelloWorld
             double myDouble = 13.37;
             int myInteger;
             // Explicit conversion
-            // Cast double into integer
+            // i.e cast double into integer
             myInteger = (int)myDouble;
-            Console.WriteLine(myInteger);
+            Console.WriteLine("We can cast a double into an integer(explicit conversion). However, integers dont store decimal points so any trailing decimals will be lost.");
+            Console.WriteLine("For instance, the double " + myDouble + " will become " + myInteger + ".");
+
+            // Implicit conversion
+            // i.e convert into a bigger or smaller type
+            int anotherNumber = 1234567890;
+            long bigNumber = anotherNumber;
+
+            float myFloat = 13.37f;
+            double myNewDouble = myFloat;
+
+            // Type conversion
+            // i.e double to a string
+
 
             Console.Read();
         }
