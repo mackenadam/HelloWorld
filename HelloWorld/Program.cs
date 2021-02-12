@@ -78,7 +78,10 @@ namespace HelloWorld
 
             // Type conversion
             // i.e double to a string
+            string myString = myDouble.ToString();
+            string newString = myFloat.ToString();
 
+            Console.WriteLine(newString);
 
             Console.Read();
         }
