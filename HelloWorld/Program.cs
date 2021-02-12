@@ -59,7 +59,12 @@ namespace HelloWorld
             Console.Clear();
             Console.WriteLine("Now we can change the colour using Console properties.");
 
-  
+            // Practice Implicit and Explicit conversions
+            double myDouble = 13.37;
+            int myInteger;
+            // Explicit conversion
+            // Cast double into integer
+            myInteger = (int)myDouble;
 
             Console.ReadKey();
         }
