@@ -94,6 +94,16 @@ namespace HelloWorld
             int resultInt = firstNumber + secondNumber;
             Console.WriteLine(resultInt);
 
+            // String methods
+            // i.e SubString, ToLower, ToUpper, Trim, IndexOf
+            string firstName = "Adam";
+            string lastName = "Macken";
+            string fullName = string.Concat(" ", firstName," ", lastName, " ");
+            Console.WriteLine(firstName.Substring(1));
+            Console.WriteLine(firstName.ToUpper());
+            Console.WriteLine(lastName.ToLower());
+            Console.WriteLine(fullName.Trim());
+
             Console.Read();
         }
     }
