@@ -107,6 +107,15 @@ namespace HelloWorld
             Console.WriteLine(String.IsNullOrWhiteSpace(fullName));
             Console.WriteLine(String.Format("Hello, my name is {0}", fullName.Trim()));
 
+            // String Method Challenge
+            string inputString;
+            Console.WriteLine("Please enter your name and press Enter: ");
+            inputString = (Console.ReadLine());
+            Console.WriteLine(inputString.ToUpper());
+            Console.WriteLine(inputString.ToLower());
+            Console.WriteLine(inputString.Trim());
+            Console.WriteLine(inputString.Substring(1));
+
             Console.Read();
         }
     }
