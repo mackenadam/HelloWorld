@@ -86,6 +86,14 @@ namespace HelloWorld
             string myBooleanString = sunIsShining.ToString();
             Console.WriteLine(myBooleanString);
 
+            // Parse string to an integer
+            string firstString = "15";
+            string secondString = "13";
+            int firstNumber = Int32.Parse(firstString);
+            int secondNumber = Int32.Parse(secondString);
+            int resultInt = firstNumber + secondNumber;
+            Console.WriteLine(resultInt);
+
             Console.Read();
         }
     }
