@@ -103,6 +103,9 @@ namespace HelloWorld
             Console.WriteLine(firstName.ToUpper());
             Console.WriteLine(lastName.ToLower());
             Console.WriteLine(fullName.Trim());
+            Console.WriteLine(fullName.IndexOf("M"));
+            Console.WriteLine(String.IsNullOrWhiteSpace(fullName));
+            Console.WriteLine(String.Format("Hello, my name is {0}", fullName.Trim()));
 
             Console.Read();
         }
