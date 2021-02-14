@@ -45,7 +45,7 @@ namespace HelloWorld
             Console.WriteLine(message.ToUpper());
             Console.WriteLine(lowercaseMessage);
 
-            Console.Write("Now, enter a string and press Enter: ");
+            Console.Write("Now, enter your name and press Enter: ");
             string userInput = Console.ReadLine();
             Console.WriteLine("You have entered: '{0}'", userInput);
 
@@ -108,15 +108,15 @@ namespace HelloWorld
             Console.WriteLine(String.Format("Hello, my name is {0}", fullName.Trim()));
 
             // String Method Challenge
-            string inputString;
-            Console.WriteLine("Please enter your name and press Enter: ");
-            inputString = (Console.ReadLine());
-            Console.WriteLine(inputString.ToUpper());
-            Console.WriteLine(inputString.ToLower());
-            Console.WriteLine(inputString.Trim());
-            Console.WriteLine(inputString.Substring(1));
+            string inputTrimmed = String.Format("Trimmed value: {0}", userInput.Trim());
+            string inputToLower = String.Format("LowerCase: {0}", userInput.ToLower());
+            string inputToUpper = String.Format("UpperCase: {0}", userInput.ToUpper());
+            string inputSubstring = String.Format("Substring: {0}," userInput.Substring(1));
 
-            Console.Read();
+            Console.WriteLine(inputTrimmed);
+            Console.WriteLine(inputToLower);
+            Console.WriteLine(inputToUpper);
+            Console.WriteLine(inputSubstring);
         }
     }
 }
